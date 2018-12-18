@@ -1,4 +1,4 @@
-ï»¿<!doctype html>
+<!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
@@ -7,8 +7,7 @@
 <!--
 <![endif]-->
 <head>
-	<title>CREATOR - äº§å“ä»‹ç»</title>
-	<meta charset="utf-8">
+	<title>CREATOR - ²úÆ·½éÉÜ</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -28,39 +27,59 @@
 	<link href="css/responsive.css" rel="stylesheet">
 
 	<script type="text/javascript" src="js/header-footer.js"></script>
-	<!--[if IE]>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body>
-	<script>header1();</script>
+	<script language="javascript" type="text/javascript">
+		function check(){
+			var strValue = document.getElementById("txt").value;
+			strValue = strValue.replace(/\n/g,'');
+			if (javaTrim (strValue) == "" || document.getElementById("btn").disabled=="disabled") alert("»Ø³µ¡¢¿Õ¸ñ¡¢Îª¿Õ");
+		}
+		function javaTrim(str) {
+			for (var i = 0; (str.charAt(i) == ' ') && i < str.length; i++)
+			if (i == str.length) return '';
+			var newstr = str.substr(i);
+			for (var i = newstr.length - 1; newstr.charAt(i) == ' ' && i >= 0; i--)
+			newstr = newstr.substr(0, i + 1);
+			return newstr;
+		}
+		function look() {
+			if (document.getElementById("txt").value != "") document.getElementById("btn").disabled="";
+			else document.getElementById("btn").disabled="disabled";
+		}
+		</script>
+		<!--[if IE]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<script>header1();</script>
 
-	<li><a href="index.html" title="ä¸»é¡µ">ä¸»é¡µ</a></li>
-	<li><a href="#" class="active" title="äº§å“ä»‹ç»">äº§å“ä»‹ç»</a></li>
-	<li><a href="contact.html" title="å…³äºæˆ‘ä»¬">å…³äºæˆ‘ä»¬</a></li>
+		<li><a href="index.html" title="Ö÷Ò³">Ö÷Ò³</a></li>
+		<li><a href="#" class="active" title="²úÆ·½éÉÜ">²úÆ·½éÉÜ</a></li>
+		<li><a href="contact.html" title="¹ØÓÚÎÒÃÇ">¹ØÓÚÎÒÃÇ</a></li>
 
-	<script>header2();</script>
+		<script>header2();</script>
 
 
-	<div class="bottom_banner">
-		<div class="container">
-			<div class="col-md-6 flt_left">
-				<h4>äº§ å“ å°š åœ¨ ç ” å‘</h4>
-				<p>é€šè¿‡ç”µå­é‚®ä»¶è”ç³»æˆ‘ä»¬ è·Ÿè¸ªå·¥ä½œè¿›åº¦ æ­ç§˜å¹•ååˆ¶ä½œ</p>
-			</div>
+		<div class="bottom_banner">
+			<div class="container">
+				<div class="col-md-6 flt_left">
+					<h4>²ú Æ· ÉĞ ÔÚ ÑĞ ·¢</h4>
+					<p>¶©ÔÄÎÒÃÇµÄµç×ÓÓÊ¼ş ¸ú×Ù¹¤×÷½ø¶È ¼ÓÈëÄ»ºóÖÆ×÷</p>
+					<p style="color:yellow;"><?php echo htmlspecialchars($_POST['email'], ENT_NOQUOTES, 'gb2312') ;?><?php if ($_POST) echo "»¶Ó­Èë¿Ó";?></p>
+				</div>
 
-			<div class="col-md-6">
-				<div class="sub_form_warp">
-					<div class="sub_form">
-						<form action="#">
-							<input placeholder="æ‚¨çš„ç”µå­é‚®ä»¶åœ°å€" type="email">
-							<button title="æœåŠ¡å™¨æš‚æœªå¼€å‘">ç¡®è®¤</button>
-						</form>
+				<div class="col-md-6">
+					<div class="sub_form_warp">
+						<div class="sub_form">
+							<form action="mailer.php" method="post">
+								<input id="txt" placeholder="ÄúµÄµç×ÓÓÊ¼şµØÖ·" type="email" name="email" onpropertychange="look()">
+								<button id="btn" title="·şÎñÆ÷ºóÌ¨¿ª·¢ÖĞ Ôİ²»¿ÉÓÃ" type="submit" onclick="check()" disabled>¶© ÔÄ</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<script>footer();</script>
+		<script>footer();</script>
