@@ -1,4 +1,4 @@
-<!doctype html>
+ï»¿<!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
@@ -7,7 +7,7 @@
 <!--
 <![endif]-->
 <head>
-	<title>CREATOR - ²úÆ·½éÉÜ</title>
+	<title>CREATOR - äº§å“ä»‹ç»</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -31,7 +31,7 @@
 		function check(){
 			var strValue = document.getElementById("txt").value;
 			strValue = strValue.replace(/\n/g,'');
-			if (javaTrim (strValue) == "" || document.getElementById("btn").disabled=="disabled") alert("»Ø³µ¡¢¿Õ¸ñ¡¢Îª¿Õ");
+			if (javaTrim (strValue) == "" || document.getElementById("btn").disabled=="disabled") alert("å›è½¦ã€ç©ºæ ¼ã€ä¸ºç©º");
 		}
 		function javaTrim(str) {
 			for (var i = 0; (str.charAt(i) == ' ') && i < str.length; i++)
@@ -54,9 +54,9 @@
 	<body>
 		<script>header1();</script>
 
-		<li><a href="index.html" title="Ö÷Ò³">Ö÷Ò³</a></li>
-		<li><a href="#" class="active" title="²úÆ·½éÉÜ">²úÆ·½éÉÜ</a></li>
-		<li><a href="contact.html" title="¹ØÓÚÎÒÃÇ">¹ØÓÚÎÒÃÇ</a></li>
+		<li><a href="index.html" title="ä¸»é¡µ">ä¸»é¡µ</a></li>
+		<li><a href="#" class="active" title="äº§å“ä»‹ç»">äº§å“ä»‹ç»</a></li>
+		<li><a href="contact.html" title="å…³äºæˆ‘ä»¬">å…³äºæˆ‘ä»¬</a></li>
 
 		<script>header2();</script>
 
@@ -64,17 +64,17 @@
 		<div class="bottom_banner">
 			<div class="container">
 				<div class="col-md-6 flt_left">
-					<h4>²ú Æ· ÉĞ ÔÚ ÑĞ ·¢</h4>
-					<p>¶©ÔÄÎÒÃÇµÄµç×ÓÓÊ¼ş ¸ú×Ù¹¤×÷½ø¶È ¼ÓÈëÄ»ºóÖÆ×÷</p>
-					<p style="color:yellow;"><?php echo htmlspecialchars($_POST['email'], ENT_NOQUOTES, 'gb2312') ;?><?php if ($_POST) echo "»¶Ó­Èë¿Ó";?></p>
+					<h4>äº§ å“ å°š åœ¨ ç ” å‘</h4>
+					<p>è®¢é˜…æˆ‘ä»¬çš„ç”µå­é‚®ä»¶ è·Ÿè¸ªå·¥ä½œè¿›åº¦ åŠ å…¥å¹•ååˆ¶ä½œ</p>
+					<p style="color:yellow;"><?php echo htmlspecialchars($_POST['email'], ENT_NOQUOTES, 'gb2312') ;?><?php if ($_POST) echo "æ¬¢è¿å…¥å‘";?></p>
 				</div>
 
 				<div class="col-md-6">
 					<div class="sub_form_warp">
 						<div class="sub_form">
 							<form action="mailer.php" method="post">
-								<input id="txt" placeholder="ÄúµÄµç×ÓÓÊ¼şµØÖ·" type="email" name="email" onpropertychange="look()">
-								<button id="btn" title="·şÎñÆ÷ºóÌ¨¿ª·¢ÖĞ Ôİ²»¿ÉÓÃ" type="submit" onclick="check()" disabled>¶© ÔÄ</button>
+								<input id="txt" placeholder="æ‚¨çš„ç”µå­é‚®ä»¶åœ°å€" type="email" name="email" onpropertychange="look()">
+								<button id="btn" title="æœåŠ¡å™¨åå°å¼€å‘ä¸­ æš‚ä¸å¯ç”¨" type="submit" onclick="check()" disabled>è®¢ é˜…</button>
 							</form>
 						</div>
 					</div>
