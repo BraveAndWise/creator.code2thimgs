@@ -31,7 +31,8 @@
 		function check(){
 			var strValue = document.getElementById("txt").value;
 			strValue = strValue.replace(/\n/g,'');
-			if (javaTrim (strValue) == "" || document.getElementById("btn").disabled=="disabled") alert("回车、空格、为空");
+			if (javaTrim(strValue) == "" || document.getElementById("btn").disabled == "disabled")
+				alert("回车、空格、为空");
 		}
 		function javaTrim(str) {
 			for (var i = 0; (str.charAt(i) == ' ') && i < str.length; i++)
@@ -42,7 +43,7 @@
 			return newstr;
 		}
 		function look() {
-			if (document.getElementById("txt").value != "") document.getElementById("btn").disabled="";
+			if (!empty(document.getElementById("txt").value)) document.getElementById("btn").disabled="";
 			else document.getElementById("btn").disabled="disabled";
 		}
 		</script>
@@ -60,7 +61,87 @@
 
 		<script>header2();</script>
 
-
+		
+	<header id="page-top" class="blog-banner">
+        <div class="container" id="blog">
+            <div class="row blog-header text-center wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-sm-12">
+                    <h4><a href="index.html"> 主页 </a> / 产品介绍 </h4>
+                    <h3>我们的产品</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+	<div class="base-header">
+	<span><br><img src="images/heading_icon.png" alt=""></span>
+	</div>
+	
+    <section class="blog-section">
+        <div class="container">
+		
+            <div class="base-header">
+                <h3>制作过程 </h3>
+                <p>制作过程 </p>
+                <span><img src="images/heading_icon.png" alt=""></span>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="blog-warp-1 blog_warp_lay_1">
+                        <div class="blog_imgg">
+                            <img src="images/blog_1.jpg" alt="" />
+                            <a href="#" class="blog_cat"> #1 </a>
+                            <a href="#" class="blog_link"> <i class="icon_link"> </i> </a>
+                        </div>
+                        <div class="blog_content_warp">
+                            <h5><a href="blog.html"> box的基本设计图（图片待处理）</a></h5>
+                            <a href="#" class="blog_datee"><i class="fa fa-calendar"></i>  12.23  </a>
+                            <a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 0 </a>
+                            <p>通过做盒子的网站设计尺寸大小，然后导出相应文件。当然，这个木板就是用来激光切割盒子的原材料啦……<br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+				<!-- End:  blog 1 -->
+                <div class="col-sm-4">
+                    <div class="blog-warp-1 blog_warp_lay_1">
+                        <div class="blog_imgg">
+                            <img src="images/blog_2.jpg" alt="" />
+                            <a href="#" class="blog_cat"> #2 </a>
+                            <a href="#" class="blog_link"> <i class="icon_link"> </i> </a>
+                        </div>
+                        <div class="blog_content_warp">
+                            <h5><a href="blog.html"> 激光切割过程（图片待处理） </a></h5>
+                            <a href="#" class="blog_datee"><i class="fa fa-calendar"></i>  12.23  </a>
+                            <a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 0 </a>
+                            <p>由于我们所用的木板有点厚，即厚度在6-7mm不等（可见这个木板的做工……嗯……并不是非常的精细），
+							因此我们基本上需要用激光切割两遍，
+							甚至……嗯……厚的地方可能要三遍。至于我们为什么知道可能需要切割三遍，
+							嗯，是因为切割两遍之后，我们依然需要手掰木板……</p>
+                        </div>
+                    </div>
+                </div>
+				<!-- End:  blog 2 -->
+                <div class="col-sm-4">
+                    <div class="blog-warp-1 blog_warp_lay_1">
+                        <div class="blog_imgg">
+                            <img src="images/blog_1.jpg" alt="" />
+                            <a href="#" class="blog_cat"> #3 </a>
+                            <a href="#" class="blog_link"> <i class="icon_link"> </i> </a>
+                        </div>
+                        <div class="blog_content_warp">
+                            <h5><a href="blog.html"> 拼装 </a></h5>
+                            <a href="#" class="blog_datee"><i class="fa fa-calendar"></i>  12.23  </a>
+                            <a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 0 </a>
+                            <p> <a href="http://192.168.137.1">具体过程请看此文档</a><br><br><br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="text-center">
+                <a href="#" class="more-link">  </a>
+            </div>
+        </div>
+    </section>
+	
 		<div class="bottom_banner">
 			<div class="container">
 				<div class="col-md-6 flt_left">
@@ -73,8 +154,8 @@
 					<div class="sub_form_warp">
 						<div class="sub_form">
 							<form action="mailer.php" method="post">
-								<input id="txt" placeholder="您的电子邮件地址" type="email" name="email" onpropertychange="look()">
-								<button id="btn" title="服务器后台开发中 暂不可用" type="submit" onclick="check()" disabled>订 阅</button>
+								<input id="txt" placeholder="您的电子邮件地址" type="email" name="email" onchange="look();">
+								<button id="btn" title="服务器后台开发中 暂不可用" type="submit">订 阅</button>
 							</form>
 						</div>
 					</div>
