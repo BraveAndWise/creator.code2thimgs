@@ -80,8 +80,8 @@ function footer(){
 	document.writeln("					<div class=\'widget\'>");
 	document.writeln("						<h5>指导教师</h5>");
 	document.writeln("						<ul class=\'footer_contact_info\'>");
-	document.writeln("							<li><i class=\'icon_profile\'></i><span><a>王衡</a></span></li>");
-	document.writeln("							<li><i class=\'icon_profile\'></i><span><a>李君</a></span></li>");
+	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'#\'>王衡</a></span></li>");
+	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'#\'>李君</a></span></li>");
 	document.writeln("						</ul>");
 	document.writeln("					</div>");
 	document.writeln("				</div>");
@@ -91,11 +91,11 @@ function footer(){
 	document.writeln("					<div class=\'widget\'>");
 	document.writeln("						<h5>小组成员</h5>");
 	document.writeln("						<ul class=\'footer_contact_info\'>");
-	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'contact.html#zmh\'>朱敏华</a></span></li>");
-	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'contact.html#ljx\'>刘佳欣</a></span></li>");
-	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'contact.html#hbj\'>韩宝佳</a></span></li>");
-	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'contact.html#glb\'>高立博</a></span></li>");
-	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'contact.html#hck\'>黄崇凯</a></span></li>");
+	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'#\'>朱敏华</a></span></li>");
+	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'#\'>刘佳欣</a></span></li>");
+	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'#\'>韩宝佳</a></span></li>");
+	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'#\'>高立博</a></span></li>");
+	document.writeln("							<li><i class=\'icon_profile\'></i><span><a href=\'#\'>黄崇凯</a></span></li>");
 	document.writeln("						</ul>");
 	document.writeln("					</div>");
 	document.writeln("				</div>");
@@ -126,7 +126,7 @@ function footer(){
 	document.writeln("						<p>Copyright &copy; 2018.SWJTU All rights reserved.</p>");
 	document.writeln("					</div>");
 	document.writeln("					<div class=\'col-xs-6\'>");
-	document.writeln("						<a class=\'scrollup\'><i class=\'arrow_carrot-up\'></i></a>");
+	document.writeln("						<a class=\'scrollup\' href=\'#\'><i class=\'arrow_carrot-up\'></i></a>");
 	document.writeln("					</div>");
 	document.writeln("				</div>");
 	document.writeln("");
