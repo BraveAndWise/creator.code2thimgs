@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbfc8a7f-4f17-43b7-9b55-c323a8f47af3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/MainAbility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/datamodel/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/datamodel/CategoryItemBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/persist/SettingsAbilityDatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/settingscategory/SettingsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/settingscategory/SettingsItemFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/settingscategory/item/GroupHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/settingscategory/item/SimpleTextItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/settingscategory/item/SimpleTextItemData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/settingscategory/item/SwitchItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/settingscategory/item/SwitchItemData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/slice/SettingsListSlice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/java/com/swjtu/ctsys/views/adapter/SettingsListItemProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/color.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/float.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/graphic/icon_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/graphic/icon_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/graphic/icon_more.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/graphic/icon_right_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/graphic/icon_star.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/graphic/icon_switch_disable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/graphic/icon_switch_enable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/layout/main_ability.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/layout/setting_category_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/layout/setting_simple_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/layout/setting_switch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/rawfile/settingsPattern.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/test/java/com/swjtu/ctsys/ExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/10_Keras.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/11_Convolutional-Neural-Network-part1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/12_Convolutional-Neural-Network-part2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/13_Tips-for-Deep-Learning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/14_Why-Deep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/15_Semi-supervised-Learning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/16_Unsupervised-Learning-Introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/17_Unsupervised-Learning-PCA-part1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/18_Unsupervised-Learning-PCA-part2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/19_Matrix-Factorization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/1_Introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/20_Unsupervised-Learning-Word-Embedding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/21_Unsupervised-Learning-Neighbor-Embedding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/22_Unsupervised-Learning-Deep-Auto-encoder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/23_Unsupervised-Learning-Generation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/24_Transfer-Learning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/25_Support-Vector-Machine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/26_Recurrent-Neural-Network-part1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/27_Recurrent-Neural-Network-part2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/2_Regression-Case-Study.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/3_Regression-demo(Adagrad).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/4_Where-does-the-error-come-from.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/5_Gradient-Descent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/6_Classification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/7_Logistic-Regression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/8_Deep-Learning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-html/9_Backpropagation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/10_Keras.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/11_Convolutional Neural Network part1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/12_Convolutional Neural Network part2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/13_Tips for Deep Learning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/14_Why Deep.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/15_Semi-supervised Learning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/16_Unsupervised Learning Introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/17_Unsupervised Learning PCA part1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/18_Unsupervised Learning PCA part2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/19_Matrix Factorization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/1_Introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/20_Unsupervised Learning Word Embedding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/21_Unsupervised Learning Neighbor Embedding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/22_Unsupervised Learning Deep Auto-encoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/23_Unsupervised Learning Generation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/24_Transfer Learning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/25_Support Vector Machine.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/26_Recurrent Neural Network part1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/27_Recurrent Neural Network part2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/2_Regression Case Study.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/3_Regression demo(Adagrad).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/4_Where does the error come from.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/5_Gradient Descent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/6_Classification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/7_Logistic Regression.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/8_Deep Learning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-md/9_Backpropagation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-pdf/1_Introduction.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-pdf/2_Regression Case Study.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-pdf/3_Regression demo(Adagrad).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-pdf/4_Where does the error come from.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-pdf/5_Gradient Descent.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/ML-notes-pdf/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/Digits-Detection/digits-detection-cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/Digits-Detection/digits-detection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/Gradient-Descent-Demo/Gradient-Descent-Demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/Gradient-Descent-Demo/Gradient-Descent-Demo.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/Gradient-Descent-Demo/GradientDescentDemo_official.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/pytorch/PyTorch_Introduction.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/pytorch/pytorch-introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/code/pytorch/pytorch-tips.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/5000-tests.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/L1-L2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/L1L2regularization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/Xcp-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/Xcp-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/Xcp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/Xcp-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/Xcp-compare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/Xcp-overfitting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/best-function.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/bias-variance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/bias-vs-variance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/cross-validation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/ds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/estimator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/goodness-of-function.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/gradient-descent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/gradient-stuck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/gradient-two-parameters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/hidden-factors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/large-bias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/large-variance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/learningMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/loss-figure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/loss-function.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/ml-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/model-bias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/model-selection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/n-flod-cross-validation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/new-model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/new-results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/pokeman-parameters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/regularization-illustration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/regularization-performance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/regularization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/reinforcement-Learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/semi-supervised-Learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/structured-Learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/transfer-Learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/unsupervised-Learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/wx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/wxzf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/zfb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/zfb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/img/zs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graduationProject/hue96yhz-ML-notes-master/ML-notes/keras-tips.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/example.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/history.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/spbasic.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/spmpsci.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/spphys.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/svglov3.clo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/svjour3.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/template.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/usrguid3.dvi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/LaTeX_DL_468198_240419/usrguid3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/CV_B_Zhang_EN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/CV_B_Zhang_EN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/Address0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/Github0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/Phone0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/Thesis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/Wechat0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/awards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/education.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/hobbies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/projects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/skills.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/wechat1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/work.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/icons/zhihu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/Resume-Chinese-English-LaTeX-master/Resume-Chinese-English-LaTeX-master/resume.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/aaa.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/hbj.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/hbj.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/size10.clo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/svglov3.clo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/svjour3.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/temp.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/learnspace/learn1/temp.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/bjTmp/test.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/bjTmp/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/bjTmp/test.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/bjTmp/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/compile.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/hbj.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/hbjbasic.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/pics/Figure9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/svglov3.clo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/svjour3.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.bbl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.blg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.synctex.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/test.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/main/workspace.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/.remarkrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/README.zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/cat.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/example-readmes/maximal-readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/example-readmes/minimal-readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/spec.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/standard-readme-master/standard-readme-master/spec.zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/compile.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/hbj.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/hbjbasic.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/pics/Figure9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/svglov3.clo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/svjour3.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/test.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/temp/workspace.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/compile.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/hbj.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/hbjbasic.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/pics/Figure9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/svglov3.clo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/svjour3.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/test.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latex/毕业设计翻译外文/workspace/workspace.zip" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1qfIfvsRu76q67fEnpVJpw6C8ll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.ide.version" value="DS-192.6262.58.36.2012201" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ohos.template.packageName">
+      <recent name="com.swjtu.ctsys" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="entry" type="OhosDebugTask" factoryName="HarmonyOS App">
+      <module name="entry" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto />
+      <Dual />
+      <DualJs />
+      <Java />
+      <Js />
+      <Native />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <DEPLOY_MULTI_HAP>false</DEPLOY_MULTI_HAP>
+      <method v="2">
+        <option name="Ohos.Build.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbfc8a7f-4f17-43b7-9b55-c323a8f47af3" name="Default Changelist" comment="" />
+      <created>1617464324743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617464324743</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
