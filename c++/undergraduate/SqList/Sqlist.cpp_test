@@ -1,0 +1,26 @@
+#include "Sqlist.h"
+#include <iostream>
+
+Status InitList(SqList &L)
+{
+}
+Status DestroyList(SqList &L)
+{
+}
+Status ClearList(SqList &L)
+{
+}
+
+Status IsEmpty(SqList L)
+{
+}
+Status ListLength(SqList L)
+{
+}
+
+int LocateElem(SqList L, ElemType e)
+{
+}
+Status GetElem(SqList L, int i, ElemType &e)
+{
+}
